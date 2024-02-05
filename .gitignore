@@ -34,3 +34,4 @@
 
 # folders for debug + executables
 /executables/*
+/debug_symbols/*
