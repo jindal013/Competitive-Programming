@@ -35,3 +35,6 @@
 # folders for debug + executables
 /executables/*
 /debug_symbols/*
+
+# mac files
+*.DS_Store
