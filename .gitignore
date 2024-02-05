@@ -37,4 +37,4 @@
 /debug_symbols/*
 
 # mac files
-*.DS_Store
+.DS_Store
