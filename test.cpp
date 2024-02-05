@@ -2,6 +2,6 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, World! This actuaasdasdlly works yay ig@@!!!!!/" << endl;
+    cout << "NEW THING WORKS!" << endl;
     return 0;
 }
