@@ -19,4 +19,5 @@ int main(int argc, char* argv[]){
         cout << rand(1, 10) << " ";
     }
     cout << endl;
+
 }
