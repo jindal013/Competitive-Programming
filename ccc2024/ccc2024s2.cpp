@@ -32,29 +32,23 @@ int main() {
 
 
         if (ans[i] != 0){
-            //cout << "okay got here" << endl;
             int prev = 0;
             int curr = 0;
 
             if (freq[int(s[0])-97] == 1){
-                //cout << "this mean B appears once!" << endl;
                 prev = 0;
             }
             else{
-                //cout << "this mean B appears more than once!" << endl;
                 prev = 1;
             }
 
             for (int j = 1; j < n; j++){
-                //cout << j << " this is current j" << endl;
                 
                 if (freq[int(s[j])-97] == 1){
                 curr = 0;
-                //cout << j << " this means appears once!" << endl;
                 }
                 else{
                     curr = 1;
-                    //cout << j << " this means appears more than once!" << endl;
                 }
 
 
