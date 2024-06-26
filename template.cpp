@@ -3,6 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+#include <cstdio>
 #include <math.h>
 #include <algorithm>
 #include <vector>
