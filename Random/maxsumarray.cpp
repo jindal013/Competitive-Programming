@@ -15,7 +15,7 @@ int main(){
 
     for (int i = 0; i<(n+1); i++){
         sum = max(arr.at(i), sum + arr.at(i));
-        // arr.at(i) = sum; we don't even need to update this since we don't use this value again
+        arr.at(i) = sum;
         best = max(sum, best);
     }
 
