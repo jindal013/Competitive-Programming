@@ -1,16 +1,16 @@
 //#include <bits/stdc++.h>
 #include <iostream>
+#include <algorithm>
+#include <vector>
 #define fastio ios::sync_with_stdio(0); cin.tie(0);
 #define endl "\n"
+
 using namespace std;
 
-int main() {
+int main(){
     fastio
-    int n = 0;
+    //freopen("in.in", "r", stdin);
+    //freopen("out.out", "w", stdout);
+
     
-    cout << "enter number" << endl;
-
-    cin >> n;
-
-    cout << "number was " << n << endl;
 }

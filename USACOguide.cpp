@@ -1,6 +1,10 @@
-#include <iostream> //fix <bits/stdc++.h>> for macOS
-#include <vector>
+//#include <iostream>  //fix <bits/stdc++.h>> for macOS
+//#include <vector>
+#include <bits/stdc++.h>
+#define fastio ios::sync_with_stdio(0); cin.tie(0);
+#define endl "\n"
 using namespace std;
+
 
 int main(){
     int n, q, sum = 0, best = 0; 
