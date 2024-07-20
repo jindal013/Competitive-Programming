@@ -6,10 +6,26 @@ using namespace std;
 
 int main() {
     fastio
-    vector<int> vec = {1, 2, 3, 4};
-    
-    for (int it : vec){
-        cout << typeid(it).name() << endl;
+
+    int a = 5;
+    int b = 1;
+    int i = 540;
+    int *pa = &a;
+
+    while (b){
+        if (*(pa+i) != NULL) {
+            cout << *(pa+i) << endl;
+            cout << i << endl;
+            b = 0;
+        }
+        else {
+            i++;
+        }
     }
+    // vector<int> vec = {1, 2, 3, 4};
+    
+    // for (int it : vec){
+    //     cout << typeid(it).name() << endl;
+    // }
 
 }
