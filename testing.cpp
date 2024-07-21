@@ -9,6 +9,9 @@ int main(){
     vector<int> v{1, 7, 4, 5, 2};
 
     v.at(2) = 11;
+    int x;
+
+    cin >> x;
 
     for (auto it = v.begin(); it != v.end(); ++it) {
         cout << *it << " ";  // prints the values in the vector using the iterator
