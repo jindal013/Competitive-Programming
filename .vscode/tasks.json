@@ -7,6 +7,7 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
+        "-Wall",
         "${file}",
         "-o",
         "${fileDirname}/executables/${fileBasenameNoExtension}"
@@ -30,6 +31,13 @@
         "reveal": "always"
       },
       "dependsOn": "C/C++: g++ build active file",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Echo Hello",
+      "command": "echo",
+      "args": ["Hello"],
       "problemMatcher": []
     }
   ],
