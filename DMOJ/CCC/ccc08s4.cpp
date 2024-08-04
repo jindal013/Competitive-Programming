@@ -9,7 +9,7 @@ vector<int> layer2;
 vector<int> layer;
 int ans = 0;
 
-//TODO - find out why this solution gives RTE (running time exception) - floating point exception
+//TODO - find out why this solution gives RTE (running time exception) - floating point exception. Found - due to mods by 0, had to check 0 condition before anything else
 
 void solve(int index, int value = 0){
     if (index == 3){
