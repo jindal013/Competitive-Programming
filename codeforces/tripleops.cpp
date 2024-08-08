@@ -32,7 +32,7 @@ int main(){
 
         //cout << "END 2: " << pow(3, end2) << endl; 
 
-        for (auto i = end1+1; i < end2; i++){
+        for (auto i = end1+1; i < end2; i++){ // just do a prefix sum array here!
             ans += (pow(3, i)-pow(3, i-1))*(i);
         }
         
