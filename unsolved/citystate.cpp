@@ -3,7 +3,7 @@
 #define endl "\n"
 using namespace std;
 
-int main(){
+int main(){ // https://usaco.org/index.php?page=viewproblem2&cpid=667 sets and maps bronze module
     fastio
     // freopen("citystate.in", "r", stdin);
     // freopen("citystate.out", "w", stdout);
