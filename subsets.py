@@ -1,3 +1,5 @@
+hello_key = "HELEEOEOEO SECRET KEY"
+
 def search(k, n, subset):
     if k == n:
         print(subset)  # Process subset
