@@ -10,7 +10,7 @@
         "-Wall",
         "${file}",
         "-o",
-        "${fileDirname}/executables/${fileBasenameNoExtension}"
+        "${fileDirname}/a.out"
       ],
       "options": {
         "cwd": "${fileDirname}"
@@ -21,8 +21,9 @@
     },
     {
       "type": "shell",
-      "label": "RunExecutable",
-      "command": "./executables/${fileBasenameNoExtension}",
+      "label": "RunExecutable and delete",
+      "command": "bash",
+      "args": ["-c", "\"${fileDirname}/a.out && rm ${fileDirname}/a.out && rm -rf ${fileDirname}/a.out.dSYM\""],
       "group": {
         "kind": "build",
         "isDefault": true
