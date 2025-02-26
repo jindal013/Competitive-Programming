@@ -52,6 +52,7 @@ int main(){
 // incorrect solution below where col is toggled as a global var
 // doesn't work since the toggling is not mathematically sound with all edges, it can't just toggle after each query
 // work through testcase on CSES and trace memory to understand what im talking about here
+// it needs to know what the colour of the previous node was, not in a global context because that won't work
 
 // #include <iostream>
 // #include <vector>
