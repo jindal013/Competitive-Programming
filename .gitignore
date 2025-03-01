@@ -36,6 +36,8 @@
 /executables/*
 /debug_symbols/*
 /testfiles/*
+/executables
+/.vscode
 
 # mac and vscode folders
 .DS_Store

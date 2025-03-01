@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 ' This is a soultion to the MDP gamblers problem with value iteration'
 
-# setup of all function
+# setup of all functi n
 states = np.linspace(1, 99, 99)
 values = {i: 0 for i in states}  # for each state give it a value of intially 0
 values[0] = 0
